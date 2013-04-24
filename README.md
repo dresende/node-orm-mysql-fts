@@ -16,6 +16,15 @@ npm install orm-mysql-fts
 
 - MySQL
 
+## Usage
+
+```js
+Model.match(property1, property2, ...).against(expression [ , alias ])
+```
+
+`alias` is an alias for the `MATCH (..) AGAINST (..)` expression and by default is `"score"`. By default the query will
+be ordered descending by this alias. Only matched rows will be returned (`HAVING score > 0`).
+
 ## Example
 
 ```js
