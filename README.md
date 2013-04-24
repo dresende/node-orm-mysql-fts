@@ -1,6 +1,6 @@
 ## ORM MySQL Full-Text Search Plugin [![](https://badge.fury.io/js/orm-mysql-fts.png)](https://npmjs.org/package/orm-mysql-fts)
 
-This plugin adds FTS support for the MySQL driver of []ORM.
+This plugin adds FTS support for the MySQL driver of [ORM](http://github.com/dresende/node-orm2).
 
 ## Dependencies
 
