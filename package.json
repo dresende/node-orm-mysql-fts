@@ -1,0 +1,22 @@
+{
+  "author"      : "Diogo Resende <dresende@thinkdigital.pt>",
+  "name"        : "orm-mysql-fts",
+  "description" : "ORM MySQL Full-Text Search support",
+  "keywords"    : [
+    "orm",
+    "mysql",
+    "fts",
+    "search"
+  ],
+  "version"     : "0.0.1",
+  "license"     : "MIT",
+  "repository"  : "http://github.com/dresende/node-orm-mysql-fts.git",
+  "main"        : "./lib/plugin",
+  "engines"     : {
+    "node"           : "*"
+  },
+  "analyse"     : false,
+  "dependencies": {
+    "orm"      : ">2.0.9"
+  }
+}
